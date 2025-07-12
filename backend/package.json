@@ -1,0 +1,18 @@
+{
+  "name": "studyswap",
+  "version": "1.0.0",
+  "description": "**StudySwap** is a collaborative platform where students can upload, discover, and exchange academic resources, earn reputation points, and join real-time study groups.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "firebase-admin": "^13.4.0",
+    "tmp": "^0.2.3"
+  }
+}
